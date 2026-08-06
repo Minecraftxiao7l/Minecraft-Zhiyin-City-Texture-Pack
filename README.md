@@ -14,7 +14,7 @@ This is the Zhiyin City texture pack for Minecraft. It supports versions 1.21.9x
 ### Java Edition
 1. Download both .zip files.
 2. Move the downloaded .zip files into Minecraft's `resourcepacks` folder:
-   - On Windows: `%appdata%\\.minecraft\\resourcepacks`
+   - On Windows: `%appdata%\.minecraft\resourcepacks`
    - On macOS: `~/Library/Application Support/minecraft/resourcepacks`
    - On Linux: `~/.minecraft/resourcepacks`
 3. Start Minecraft, go to Options → Resource Packs.
@@ -48,3 +48,58 @@ Caveats:
 - Many third‑party launchers are out of date or only support older Minecraft versions — packs may not work on the latest game release.
 - Third‑party apps may request permissions and can pose security risks; only use well‑known, reputable apps and consider scanning downloads for malware.
 - If the pack doesn't work on Android, convert or obtain a Bedrock-compatible `.mcpack` version where possible — Bedrock `.mcpack` is the most reliable format for mobile devices.
+
+---
+
+## 中文说明
+
+# Minecraft-知音城 贴图包
+这是 Minecraft 的“知音城（Zhiyin City）”贴图包。支持国际版基岩（Bedrock）1.21.9x 及以上以及 Java 版 1.20 及以上。
+
+## 安装
+
+### 基岩版（国际）
+1. 下载 `.mcpack` 文件。
+2. 打开 `.mcpack` 文件，提示时选择“Minecraft”以导入贴图包。
+3. 启动 Minecraft，进入“设置（Settings）”。
+4. 在设置中打开“全局资源（Global Resources）”，然后进入“我的包（My Packs）”。
+5. 找到刚刚导入的贴图包，点击它并选择“激活（Activate）”。
+6. 按返回键回到游戏——贴图包应已生效。
+
+### Java 版
+1. 下载两个 `.zip` 文件。
+2. 将下载的 `.zip` 文件移动到 Minecraft 的 `resourcepacks` 文件夹：
+   - Windows: `%appdata%\\.minecraft\\resourcepacks`
+   - macOS: `~/Library/Application Support/minecraft/resourcepacks`
+   - Linux: `~/.minecraft/resourcepacks`
+3. 启动 Minecraft，进入“选项（Options）”→“资源包（Resource Packs）”。
+4. 在资源包界面中，将新的资源包从左侧列表移到右侧（已启用）列表。
+5. 点击“完成（Done）”以应用资源包。
+
+注意事项：
+- 为获得最佳兼容性，请使用本仓库中标注的游戏版本。
+- 如果导入后资源包未显示，尝试重启 Minecraft，或检查文件扩展名是否为 `.mcpack`（基岩）或 `.zip`（Java）。
+
+### 安卓（手机启动器）
+
+注意：Minecraft Java 版没有官方安卓客户端。下面列出两种安卓设备上常见的贴图/资源包安装方式。
+
+A. 官方基岩 / Pocket Edition（推荐）
+1. 在安卓设备上下载 `.mcpack` 文件。
+2. 打开文件管理器，点击下载的 `.mcpack` 文件。
+3. 提示时选择“Minecraft”导入贴图包。
+4. 启动 Minecraft，打开 设置 → 全局资源 → 我的包。
+5. 找到导入的贴图包，选择并点击“激活”。
+6. 按返回键回到游戏——贴图包应已生效。
+
+B. 使用第三方安卓启动器或插件管理器（可选，兼容性因设备/版本而异）
+1. 安装一个可信的第三方 Minecraft 启动器或插件管理器（此类工具多为旧版支持，地区和安卓版本差异较大）。
+2. 将资源包 `.zip` 文件下载到设备。
+3. 按照启动器/应用的说明添加或导入资源包，通常需要将 `.zip` 放入特定文件夹（如 `resourcepacks`、`addons` 等）或使用应用内的导入功能。
+4. 在启动器/应用中为要运行的世界或配置启用资源包。
+5. 通过该启动器/应用启动 Minecraft，确认贴图生效。
+
+注意/风险提示：
+- 许多第三方启动器已不再维护或仅支持较旧的 Minecraft 版本——资源包可能无法在最新游戏版本下工作。
+- 第三方应用可能会请求多项权限并带来安全风险；仅使用知名、可信的应用，并在下载前考虑进行安全扫描。
+- 如果资源包在安卓上无法使用，建议尽可能转换或获取基岩兼容的 `.mcpack` 版本——`.mcpack` 是移动设备上最可靠的格式。
